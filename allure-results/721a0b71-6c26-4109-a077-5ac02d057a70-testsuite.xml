@@ -1,0 +1,191 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623296827165' stop='1623296827647'>
+    <name>Login Feature: Login - mobile number validation</name>
+    <title>Login Feature: Login - mobile number validation</title>
+    <test-cases>
+        <test-case start='1623296827165' status='passed' stop='1623296827167'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623296827167' status='passed' stop='1623296827227'>
+            <name>Given I am on Sign In Screen</name>
+            <title>Given I am on Sign In Screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623296827168' status='passed' stop='1623296827225'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='8e18aa09-7382-42dc-a83f-c16061bf96b4-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623296827228' status='passed' stop='1623296827543'>
+            <name>And I switch to webview</name>
+            <title>And I switch to webview</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623296827228' status='passed' stop='1623296827536'>
+                    <name>GET /session/:sessionId/contexts</name>
+                    <title>GET /session/:sessionId/contexts</title>
+                    <attachments>
+                        <attachment title='Response' source='3a2720bb-62a8-4114-8fe4-1faf5e2f8f07-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623296827537' status='passed' stop='1623296827542'>
+                    <name>POST /session/:sessionId/context</name>
+                    <title>POST /session/:sessionId/context</title>
+                    <attachments>
+                        <attachment title='Request' source='d4fb6f43-97d2-4dae-b6a0-7d780e531c21-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623296827543' status='passed' stop='1623296827645'>
+            <name>Then I should see Mobile field</name>
+            <title>Then I should see Mobile field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623296827544' status='passed' stop='1623296827581'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ab07cea7-2673-4646-803a-820c429000d0-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='1cfe0f10-dc1e-4903-b714-01beda714fe9-attachment.json' type='application/json' size='104'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623296827587' status='passed' stop='1623296827642'>
+                    <name>GET /session/:sessionId/element/0.6950728146722311-3/displayed</name>
+                    <title>GET /session/:sessionId/element/0.6950728146722311-3/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='9ced02cd-76ae-4d3c-9a77-49608974ca71-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623296827645' status='broken' stop='1623296827646'>
+            <name>When I select Singapore "+65"</name>
+            <title>When I select Singapore "+65"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select Singapore "+65"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select Singapore "+65"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\src\features\Login.feature):1:1
+                	at Scenario(Login - mobile number validation):17:1
+                	at Step(I select Singapore "&lt;Country_Code>"):22:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623296827646' status='broken' stop='1623296827646'>
+            <name>Then I enter number as "70380536"</name>
+            <title>Then I enter number as "70380536"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I enter number as "70380536"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I enter number as "70380536"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\src\features\Login.feature):1:1
+                	at Scenario(Login - mobile number validation):17:1
+                	at Step(I enter number as "&lt;Mobile_No>"):23:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623296827646' status='undefined'>
+            <name>And I should see Login button enabled</name>
+            <title>And I should see Login button enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623296827647' status='pending' stop='1623296827647'>
+            <name>I should see Login button enabled</name>
+            <title>I should see Login button enabled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623296827647' status='passed' stop='1623296827647'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

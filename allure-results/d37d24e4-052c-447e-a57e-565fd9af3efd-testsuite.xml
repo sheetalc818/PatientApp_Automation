@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623304451305' stop='1623304472243'>
+    <name>Login Feature: Click on Log In link on Sign Up Page</name>
+    <title>Login Feature: Click on Log In link on Sign Up Page</title>
+    <test-cases>
+        <test-case start='1623304451305' status='passed' stop='1623304451305'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623304451306' status='passed' stop='1623304461386'>
+            <name>Given I am on Sign Up Screen</name>
+            <title>Given I am on Sign Up Screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623304451306' status='passed' stop='1623304451332'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d2138d75-34de-4fe2-a3f4-5556ba67f362-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='49e4639f-7b85-4afb-84e8-2c80dfc0f594-attachment.json' type='application/json' size='104'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623304451339' status='passed' stop='1623304451371'>
+                    <name>GET /session/:sessionId/element/0.7654066869894673-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.7654066869894673-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='4d4bc40f-352b-4d40-b83a-a18eb19815f9-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623304461386' status='passed' stop='1623304461762'>
+            <name>And I switch to webview</name>
+            <title>And I switch to webview</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623304461387' status='passed' stop='1623304461733'>
+                    <name>GET /session/:sessionId/contexts</name>
+                    <title>GET /session/:sessionId/contexts</title>
+                    <attachments>
+                        <attachment title='Response' source='c1f69c01-4301-4dfa-a0c9-17a84df40740-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623304461735' status='passed' stop='1623304461759'>
+                    <name>POST /session/:sessionId/context</name>
+                    <title>POST /session/:sessionId/context</title>
+                    <attachments>
+                        <attachment title='Request' source='9e82b67a-cc3b-484a-a6cd-c609a320af30-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623304461762' status='passed' stop='1623304472240'>
+            <name>When I click on Log in link</name>
+            <title>When I click on Log in link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623304461765' status='passed' stop='1623304461805'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cc71a352-2972-467b-8a42-7bed4b21f62e-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='49ddef40-a26a-4278-a295-8ee6c3fff900-attachment.json' type='application/json' size='104'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623304461812' status='passed' stop='1623304462230'>
+                    <name>POST /session/:sessionId/element/0.7654066869894673-2/click</name>
+                    <title>POST /session/:sessionId/element/0.7654066869894673-2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623304472240' status='passed' stop='1623304472242'>
+            <name>Then I should see Sign In Screen</name>
+            <title>Then I should see Sign In Screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623304472242' status='passed' stop='1623304472243'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

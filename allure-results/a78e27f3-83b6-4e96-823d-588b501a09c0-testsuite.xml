@@ -1,0 +1,195 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623245212310' stop='1623245244289'>
+    <name>Login Feature: Mobile number validation</name>
+    <title>Login Feature: Mobile number validation</title>
+    <test-cases>
+        <test-case start='1623245212312' status='passed' stop='1623245212323'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623245212323' status='passed' stop='1623245212331'>
+            <name>Given I launch V2 Application</name>
+            <title>Given I launch V2 Application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623245212331' status='passed' stop='1623245223163'>
+            <name>And I switch to webview</name>
+            <title>And I switch to webview</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623245212334' status='passed' stop='1623245212778'>
+                    <name>GET /session/:sessionId/contexts</name>
+                    <title>GET /session/:sessionId/contexts</title>
+                    <attachments>
+                        <attachment title='Response' source='8d917a0a-6cba-4201-a650-3b481cacaf3f-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623245212779' status='passed' stop='1623245223158'>
+                    <name>POST /session/:sessionId/context</name>
+                    <title>POST /session/:sessionId/context</title>
+                    <attachments>
+                        <attachment title='Request' source='1c224349-25be-47e5-b97c-ce1cf89e6e0b-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623245223164' status='broken' stop='1623245244276'>
+            <name>When I enter mobile number 7038053685</name>
+            <title>When I enter mobile number 7038053685</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623245223172' status='passed' stop='1623245224806'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='299657d1-282f-4acf-badc-eabdbb92d71e-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='2338bd31-50eb-4288-98a5-ffde3c9adecd-attachment.json' type='application/json' size='108'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623245224824' status='passed' stop='1623245226610'>
+                    <name>POST /session/:sessionId/element/0.011769918675745394-1/clear</name>
+                    <title>POST /session/:sessionId/element/0.011769918675745394-1/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623245226610' status='broken' stop='1623245244276'>
+                    <name>POST /session/:sessionId/element/0.011769918675745394-1/value</name>
+                    <title>POST /session/:sessionId/element/0.011769918675745394-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ad42ebc6-f424-4ab8-822b-1df152428db4-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps>
+                        <step start='1623245231837' status='passed' stop='1623245234222'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='6658c067-8fac-45a3-b269-b6baaf6eb1ff-attachment.json' type='application/json' size='77'/>
+                                <attachment title='Response' source='e03b4be2-d01e-4d10-a478-4af252c03aae-attachment.json' type='application/json' size='1152'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623245234239' status='passed' stop='1623245239523'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='014a0199-e966-4224-b652-691e23f7b495-attachment.json' type='application/json' size='77'/>
+                                <attachment title='Response' source='6bb34e8b-f8d4-4a2c-bf4f-496b6d21b436-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623245239535' status='passed' stop='1623245241320'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='de1b27d4-f4d4-4b79-9e10-a65c39281320-attachment.json' type='application/json' size='77'/>
+                                <attachment title='Response' source='7ae06d18-e505-4c7b-a975-e38df577a2f6-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623245241343' status='broken' stop='1623245244276'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='7b6ad1ee-5ffa-42aa-a508-16edf345e382-attachment.json' type='application/json' size='77'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call elementSendKeys on element with selector "[formcontrolname="phoneNumber"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementSendKeys on element with selector "[formcontrolname="phoneNumber"]" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\refetchElement.js:29:16
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:37:37)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.runCommandWithHooks (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.setValue (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at World.&lt;anonymous> (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\src\steps\/when.js:7:24)
+                    at World.executeSync (C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\dell\Documents\VSSelenium_Workspace\my-test-app\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623245244277' status='undefined'>
+            <name>Then I should see Sign Up screen is displayed</name>
+            <title>Then I should see Sign Up screen is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623245244281' status='pending' stop='1623245244281'>
+            <name>I should see Sign Up screen is displayed</name>
+            <title>I should see Sign Up screen is displayed</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623245244281' status='passed' stop='1623245244283'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

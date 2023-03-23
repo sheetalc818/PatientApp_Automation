@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "types": [
+            "node",
+            "@wdio/sync",
+            "webdriverio/sync",
+            "@wdio/cucumber-framework",
+            "@wdio/appium-service"
+        ]
+    }
+}

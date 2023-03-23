@@ -1,0 +1,13 @@
+{
+    "cucumberautocomplete.steps": [
+        "src/steps/**/*.js",
+    ],
+    "cucumberautocomplete.syncfeatures": "src/features/**/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.customParameters": [
+        {
+            "parameter": "([^\"]*)?",
+            "value":".*"
+        },
+    ],
+}

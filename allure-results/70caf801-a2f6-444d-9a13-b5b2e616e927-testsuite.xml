@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623651016046' stop='1623651029789'>
+    <name>Login Feature: Mobile number validation Malaysia : 9 digits</name>
+    <title>Login Feature: Mobile number validation Malaysia : 9 digits</title>
+    <test-cases>
+        <test-case start='1623651016047' status='passed' stop='1623651016049'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623651016050' status='passed' stop='1623651016130'>
+            <name>Given I am on Sign In Screen</name>
+            <title>Given I am on Sign In Screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623651016052' status='passed' stop='1623651016127'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='1b3e6618-2404-444a-a491-c688146763d2-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623651016130' status='passed' stop='1623651016560'>
+            <name>And I switch to webview</name>
+            <title>And I switch to webview</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623651016132' status='passed' stop='1623651016544'>
+                    <name>GET /session/:sessionId/contexts</name>
+                    <title>GET /session/:sessionId/contexts</title>
+                    <attachments>
+                        <attachment title='Response' source='fc162527-9168-438a-8a4d-6517b3ee2c50-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623651016545' status='passed' stop='1623651016558'>
+                    <name>POST /session/:sessionId/context</name>
+                    <title>POST /session/:sessionId/context</title>
+                    <attachments>
+                        <attachment title='Request' source='27357a82-09b5-4aa9-99cd-d87be32361e5-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623651016560' status='passed' stop='1623651018117'>
+            <name>When I select Malaysia Country_Code</name>
+            <title>When I select Malaysia Country_Code</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623651016564' status='passed' stop='1623651016615'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e09ae24c-8b47-41ea-9f3b-4bf4a6c5eaa9-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='34efc2fc-5146-42c9-b36e-4b68e0a0268f-attachment.json' type='application/json' size='104'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623651016622' status='passed' stop='1623651017027'>
+                    <name>POST /session/:sessionId/element/0.5140943131648728-4/click</name>
+                    <title>POST /session/:sessionId/element/0.5140943131648728-4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623651017028' status='passed' stop='1623651017089'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ad477363-907d-4848-b21a-24a0b74041c7-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='91ced167-ca55-4e82-b5b6-f3e4b383a2e2-attachment.json' type='application/json' size='106'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623651017100' status='passed' stop='1623651017201'>
+                    <name>GET /session/:sessionId/element/0.5140943131648728-11/displayed</name>
+                    <title>GET /session/:sessionId/element/0.5140943131648728-11/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='75ca5e56-e41c-420b-b0c2-8fd8c74e596a-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623651017202' status='passed' stop='1623651017607'>
+                    <name>POST /session/:sessionId/element/0.5140943131648728-11/click</name>
+                    <title>POST /session/:sessionId/element/0.5140943131648728-11/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623651018117' status='passed' stop='1623651029781'>
+            <name>Then I input mobile number as "855522419"</name>
+            <title>Then I input mobile number as "855522419"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps>
+                <step start='1623651018119' status='passed' stop='1623651018234'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e63e77e2-4e18-47e9-9bb1-3befe0c58782-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='7d380331-6384-486e-be1f-7902555623a8-attachment.json' type='application/json' size='104'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623651018249' status='passed' stop='1623651018417'>
+                    <name>POST /session/:sessionId/element/0.5140943131648728-3/clear</name>
+                    <title>POST /session/:sessionId/element/0.5140943131648728-3/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623651018420' status='passed' stop='1623651019774'>
+                    <name>POST /session/:sessionId/element/0.5140943131648728-3/value</name>
+                    <title>POST /session/:sessionId/element/0.5140943131648728-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='2d46f056-50b5-44ab-a105-b24dd9043422-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623651029782' status='passed' stop='1623651029787'>
+            <name>And I should see "Valid"</name>
+            <title>And I should see "Valid"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623651029787' status='passed' stop='1623651029788'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

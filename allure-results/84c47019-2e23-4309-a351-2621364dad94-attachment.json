@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[body > app-root > ion-app > ion-router-outlet > app-login-page > header > img]"
+}

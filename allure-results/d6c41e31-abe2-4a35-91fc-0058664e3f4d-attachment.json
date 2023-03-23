@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[contains(@class, \"description\") and normalize-space() = \"Welcome to BioMark. Let’s begin!\"]"
+}
